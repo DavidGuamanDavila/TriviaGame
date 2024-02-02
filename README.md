@@ -25,29 +25,34 @@ In "Trivia Game," players are quizzed with random questions from four major cate
 - **Dependencies**: engi1020.arduino for Arduino integration, random and time Python modules.
 
 ## Trivia Game Flow Chart
-<img width="409" alt="Screenshot 2024-02-01 at 10 37 42 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/d8ef101f-027a-4c3f-ac15-e8af6b3e8c81">
-
+<p align="center">
+  <img width="409" alt="Screenshot 2024-02-01 at 10 37 42 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/d8ef101f-027a-4c3f-ac15-e8af6b3e8c81">
+</p>
 ### Sample Outputs
 #### Sampel Output if RDvalue is >= 0 and <= 255
-<img width="558" alt="Screenshot 2024-02-01 at 10 40 16 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/aa93aadd-5eaa-4291-8c86-322f01359368">
-
+<p align="center">  
+  <img width="558" alt="Screenshot 2024-02-01 at 10 40 16 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/aa93aadd-5eaa-4291-8c86-322f01359368">
+</p>
 **Description**: The LCD screen's output is "Math question!" and the background color is orange, while in the console, it printed a random math question, ﻿"What is the antiderivative of 1?"
 
 #### Sample Output if RDvalue is > 255 and <= 510
-<img width="581" alt="Screenshot 2024-02-01 at 10 40 40 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/34b3ac08-4801-4317-af57-97dcf9223062">
-
+<p align="center">  
+  <img width="581" alt="Screenshot 2024-02-01 at 10 40 40 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/34b3ac08-4801-4317-af57-97dcf9223062">
+</p>
 **Description**: The LCD screen's output is "History question!" and the background colour is green, while in the console it printed a random history question, ﻿"What is the main religion of the world?"
 
 
 #### Sample Output if RDvalue is > 510 and <= 765
-<img width="536" alt="Screenshot 2024-02-01 at 10 41 00 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/15e6e4d7-6fc0-445e-9ddc-5a7127045bdb">
-
+<p align="center">  
+  <img width="536" alt="Screenshot 2024-02-01 at 10 41 00 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/15e6e4d7-6fc0-445e-9ddc-5a7127045bdb">
+</p>
 **Description**: The LCD screen's output is "Chemistry question!" and the background colour is pink, while in the console, it printed a random chemistry question, "What is the name of a positively charged ion?"
 
 
 #### Sample Output if RDvalue is > 765 and <= 1023
-<img width="595" alt="Screenshot 2024-02-01 at 10 41 34 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/9329e75d-5e00-426f-bcbe-b67e1434c6f0">
-
+<p align="center">  
+  <img width="595" alt="Screenshot 2024-02-01 at 10 41 34 PM" src="https://github.com/DavidGuamanDavila/trivia_code/assets/92492748/9329e75d-5e00-426f-bcbe-b67e1434c6f0">
+</p>
 **Description**: The LCD screen's output is "Physics question!" and the background colour is light blue, while in the console it printed a random physics question, "Fill in the blank: Physics is the study of the __? One word"
 
   
